@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el numero</title>
+    <style type = "text/css">
+        body{
+            text-align: center;
+        }
+        p{
+            font-size: 1.03rem;
+            padding: 1.5rem; 
+            width: 100%;
+        }
+        input{
+            background-color: steelblue;
+            color: white;
+            cursor: pointer;
+            margin: 0.5rem auto;
+            padding: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido al juego</h1>
+    <p>El juego consiste en que la maquina pensará en un numero del
+        1 al 100 y el jugador debera adivinar el numero para ganar.
+    </p>
+    <input type = "button" value = "Iniciar" Id = "Boton">
+    <script type = "text/javascript">
+        document.getElementById("Boton").addEventListener("click", iniciar);
+        function iniciar(){
+            let vidas = 6;
+            let num = Math.floor((Math.random()*100)+1);
+            console.log(num);
+            while(vidas>0){
+                let numU = prompt("Te quedan " + vidas + " vidas.Escibe el numero: ");
+                if(numU==num){
+                    alert("Ganastes!");
+                    break;
+                }
+                if(numU>num){
+                    alert("Lo sineto, el numero que pense es menor")
+                }
+                if(numU<num){
+                    alert("Lo sineto, el numero que pense es mayor")
+                }//Cierre if
+
+                vidas--;
+
+            }//Cierre while
+
+            if(vidas==0){
+                alert("Perdistes");
+            }
+            
+        }//Cierre funcion
+    </script>
+</body>
+</html>
