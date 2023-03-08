@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliografía Personal</title>
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <i>Mi Bibliografía</i>
+        </h1>
+    </header>
+    <div style="text-align: center;">
+        <img src="Imagenes/PersonalPhoto.jpg">
+    </div>
+    <h2>Juan Esteban Olaciregui Borja</h2>
+    <p>
+        Nacido el 6 de octubre del 2000, En un hospital del municipio de Itagüi, Su madre es Viviana Paola Borja Quiroz y su padre es David Fernando Olaciregui Olier.<br>
+        Empieza su formación académica en el colegio Ferrini hasta 5to de primaria dado por un cambio de institución educativa llamada Corferrini donde inicia y finaliza su bachillerato,<br>
+        Actualmente es estudiante universiario en la Institución Universitaria Tecnológico de Antioquia cursando el 5to semestre de la tecnologia en sistemas, antes de elejir y realizar los estudios<br>
+        como tecnologo anteriormente le atraia la arquitectura, pero aun asi esta totalmente conforme con las decisiones tomadas. vive con su madre, hermanas y abuela, adora a los perros y gatos,<br>
+        tuvo un perro llamado Tobby, y desearia tener mascotas de nuevo.<br>
+        Le gusta mucho la musica pero no tiene un genero en especifico que le guste pero los generos musicales escuchados por el son el rock, hip-hop, pop, electronica.<br>
+        le gesta mucho hacer ejerciocio y lo realiza los viernes, sabados y domingos pero esta cambiando de rutina para realizalo mas dias
+    </p>
+    <p>
+        Tiene como metas y proyectos de vida obtener un excelente empleo especializado en lo que estudia actualmente, tener un apartamento propio tambinen carro y moto, viajar a diferentes paises,<br>
+        Tener la posibilidad de vivir en otro país.
+    </p>
+    <h3>Comidas Favoritas</h3>
+    <ol>
+        <p>Pastas</p>
+        <p>Perro Caliente</p>
+        <p>Hamburguesas</p>
+        <P>Bandeja Paisa</P>
+    </ol>
+    <h4>Hobbies</h4>
+    <ol>
+        <p>Practicar tocar la guitarra</p>
+    </ol>
+    <h5>Actividades Fin de Semana</h5>
+    <div class="Tabla_Actividades" >
+        <table>
+            <tr>
+                <th>Sabados</th>
+                <th>Domingos</th>
+            </tr>
+
+            <tr>
+                <td>Ir al gym</td>
+                <td>Ir al gym</td>
+            </tr>
+
+            <tr>
+                <td>Hacer tareas</td>
+                <td>Practicar guitarra</td>
+            </tr>
+
+            <tr>
+                <td>Practicar guitarra</td>
+                <td>Jugar Videoguejos</td>
+            </tr>
+
+            <tr>
+                <td>Salir con amigos</td>
+                <td>Salir con amigos</td>
+            </tr>
+        </table>
+    </div>
+    <div class="Formulario_Contacto">
+        <div class="Formulario">
+            <h6>Contacto</h6>
+            <h7>Contactame y en breves me pondre en contacto contigo</h7>
+            <form action="submeter-Formulario.php" method="post">
+                <p>
+                    <label for="Nombre" class="Colocar_Nombre">Nombre
+                        <span class="Obligatorio">*</span>
+                    </label>
+                    <input type="text" name="Introducir_Nombre" id="Nombre" required="Obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                    <label for="Email" class="Colocar_Email">Email
+                        <span class="Obligatorio">*</span>
+                    </label>
+                    <input type="Email" name="Introducior_Email" id="Email" required="Obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+                <p>
+                    <label for="Mensaje" class="Colocar_Mensaje">Mensaje
+                        <span class="Obligatorio">*</span>
+                    </label>
+                    <textarea name="Introducior_Mensaje" class="Texto_Mensaje" id="Mensaje" required="Obligatorio"
+                        placeholder="Deja aqui tu comentario">
+                </textarea>
+                </p>
+                <button type="sumit" name="Enviar_Formulario" id="Enviar">
+                    <p>Enviar</p>
+                </button>
+                <p class="Aviso">
+                    <span class="Olbligatorio"> * </span>Los campos son obligatorios
+                </p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="Texto_Contactos">
+            <p>Contactos</p>
+        </div>
+        <div class="Correos">
+            <p>
+                juanolaborja@gmail.com<br>
+                juan.olaciregui@correo.tdea.edu.co
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+h5{
+    font-size: 20px;
+    text-align: center;
+}
+
+h6{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h7{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+p{
+    padding: 10px;
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: center;
+    padding: 5px;
+}
+
+.Formulario_Contacto{
+    width: 480px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+}
+
+input{
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+label{
+    display: block;
+    float: center;
+}
+
+button{
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: beige;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button p{
+    color: black;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+::-webkit-textarea-placeholder {
+    color: black;
+}
+
+.Formulario_Contacto input:focus{
+    outline: 0;
+    border: 1px solid #fbfbfb;
+}
+
+.Formulario_Contacto textarea:focus{
+    outline: 0;
+    border: 1px solid #fbfbfb;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+}
